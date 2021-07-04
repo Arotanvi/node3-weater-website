@@ -1,4 +1,4 @@
-console.log('javascript file is being loaded here')
+//console.log('javascript file is being loaded here')
 
 
 //example to show how can u fetch a data in javascript from a URL
