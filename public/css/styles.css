@@ -1,0 +1,47 @@
+body{
+    color:red;
+    font-family:arial;
+    max-width:650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction:column;
+    min-height:90vh
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+ background:skyblue;
+ margin:4px;
+ padding:4px;
+ color:purple;
+ border:5px darkolivegreen solid;
+}
+
+header{
+    margin-top:16px;
+    margin-bottom:66px;
+}
+
+header a{
+    color :orangered;
+    text-decoration: none;
+}
+
+.portrait{
+    width:250px
+}
+
+input{
+  border:1px solid grey;
+  padding:8px
+}
+button{
+  cursor:pointer;
+  border:1px solid grey;
+  background:cadetblue;
+  color:white;
+  padding:8px;
+}
