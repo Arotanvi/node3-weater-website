@@ -13,7 +13,7 @@ const forecast=(latitude,longitude,callback)=>{
       }else{
         const temp=body.current.temperature
              const atemp=(body.current.feelslike)
-         callback(undefined,"It is "+temp+" outside . But feels like "+atemp+" outside.And also it is "+body.current.weather_descriptions[0])
+         callback(undefined,"It is "+temp+" outside . But feels like "+atemp+" outside. And humidity is "+body.current.humidity+"  And also it is "+body.current.weather_descriptions[0])
       }
 
   })
